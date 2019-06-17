@@ -1,0 +1,202 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 3464
+License: Customer
+
+Current time: 	Sun Apr 28 18:26:01 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 102 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx_Vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx_Vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cetc001
+User home directory: C:/Users/cetc001
+User working directory: E:/archlabs/lab02
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx_Vivado/Vivado
+HDI_APPROOT: C:/Xilinx_Vivado/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx_Vivado/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx_Vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx_Vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/archlabs/lab02/vivado.log
+Vivado journal file location: 	E:/archlabs/lab02/vivado.jou
+Engine tmp dir: 	E:/archlabs/lab02/.Xil/Vivado-3464-cetc19
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx_Vivado/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@192.168.5.100
+XILINX_DSP: C:/Xilinx_Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx_Vivado/Vivado/2018.3
+XILINX_SDK: C:/Xilinx_Vivado/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx_Vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx_Vivado/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 625 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: E:\archlabs\lab02\lab02.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/archlabs/lab02/lab02.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/archlabs/lab02/lab02.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_Vivado/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 82 MB (+83650kb) [00:00:10]
+// [Engine Memory]: 693 MB (+575150kb) [00:00:10]
+// [GUI Memory]: 94 MB (+7724kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3673 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 63 MB. Current time: 4/28/19, 6:26:06 PM CST
+// [Engine Memory]: 765 MB (+38820kb) [00:00:13]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 774.234 ; gain = 157.691 
+// Project name: lab02; location: E:/archlabs/lab02; part: xc7k325tffg676-2
+dismissDialog("Open Project"); // bx (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (lab02.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab02.xdc]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab02.xdc]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 1); // B (D, cp)
+// [GUI Memory]: 116 MB (+18846kb) [00:00:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.edif)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.edif)]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// [GUI Memory]: 123 MB (+428kb) [00:00:43]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab02.xdc]", 7, false); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab02.xdc", 1); // k (j, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 6); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 6); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v)]", 11, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 12, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("Top.v", 338, 194); // cl (w, cp)
+// Elapsed time: 60 seconds
+selectCodeEditor("Top.v", 300, 308); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+selectCodeEditor("Top.v", 315, 427); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), DISPLAY : display (display.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("display.v", 373, 251); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+selectCodeEditor("Top.v", 155, 437); // cl (w, cp)
+// Elapsed time: 25 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v)]", 11, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v)]", 11, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [Engine Memory]: 803 MB (+257kb) [00:03:36]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v)]", 11, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 12, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_4bits_tb (adder_4bits_tb.v)]", 10, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_4bits_tb (adder_4bits_tb.v)]", 10, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 15); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 15); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+// Elapsed time: 65 seconds
+selectCodeEditor("Top.v", 809, 120); // cl (w, cp)
+selectCodeEditor("Top.v", 809, 120, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab02.xdc", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+// Elapsed time: 54 seconds
+selectCodeEditor("Top.v", 304, 403); // cl (w, cp)
+selectCodeEditor("Top.v", 304, 420); // cl (w, cp)
+selectCodeEditor("Top.v", 51, 41); // cl (w, cp)
+selectCodeEditor("Top.v", 51, 41, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 416 seconds
+selectCodeEditor("Top.v", 3, 425); // cl (w, cp)
+selectCodeEditor("Top.v", 401, 210); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab02.xdc", 1); // k (j, cp)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+selectCodeEditor("Top.v", 3, 428); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+// Elapsed time: 49 seconds
+selectCodeEditor("Top.v", 250, 247); // cl (w, cp)
+selectCodeEditor("Top.v", 47, 102); // cl (w, cp)
+selectCodeEditor("Top.v", 47, 102, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Top.v", 153, 425); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+selectCodeEditor("Top.v", 37, 145); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("Top.v", 115, 366); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+// Elapsed time: 56 seconds
+selectCodeEditor("Top.v", 190, 339); // cl (w, cp)
+// Elapsed time: 62 seconds
+selectCodeEditor("Top.v", 1020, 177); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Top.v", 'c'); // cl (w, cp)
+selectCodeEditor("Top.v", 376, 199); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 818 MB. GUI used memory: 56 MB. Current time: 4/28/19, 6:56:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 818 MB. GUI used memory: 52 MB. Current time: 4/28/19, 7:26:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 818 MB. GUI used memory: 51 MB. Current time: 4/28/19, 7:56:09 PM CST

@@ -1,0 +1,19 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/archlabs/lab06_board/lab06.srcs/sim_1/new/top_tb.v,1557273886,verilog,,,,top_tb,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/imports/lab2_IP/display.v,1554133728,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v,,display,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/Detect.v,1556587406,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v,,Detect,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v,1557018456,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EXMEM.v,,EX,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EXMEM.v,1557018554,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/ID.v,,EXMEM,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/ID.v,1557043690,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IDEX.v,,ID,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IDEX.v,1557018504,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v,,IDEX,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v,1557043850,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IFID.v,,IF,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IFID.v,1557018306,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEM.v,,IFID,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEM.v,1557018676,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEMWB.v,,MEM,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEMWB.v,1557018598,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/WB.v,,MEMWB,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/WB.v,1557018408,verilog,,E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v,,WB,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v,1557019198,verilog,,E:/archlabs/lab06_board/lab06.srcs/sim_1/new/top_tb.v,,top,,,,,,,,
+E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top2.v,1557017130,verilog,,,,top2,,,,,,,,
+E:/archlabs/lab6/lab6.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,

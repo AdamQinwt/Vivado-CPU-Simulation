@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May  8 07:38:46 2019
+# Process ID: 31972
+# Current directory: E:/Learn/College/lab06_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32744 E:\Learn\College\lab06_board\lab06.xpr
+# Log file: E:/Learn/College/lab06_board/vivado.log
+# Journal file: E:/Learn/College/lab06_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Learn/College/lab06_board/lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/Learn/College/lab06_board/top_tb_behav.wcfg
+source top_tb.tcl
+close_sim

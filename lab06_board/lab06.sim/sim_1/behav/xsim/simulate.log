@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: File E:/Learn/College/lab06/data referenced on E:/archlabs/lab06_board/lab06.srcs/sim_1/new/top_tb.v at line 38 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File E:/Learn/College/lab06/ins referenced on E:/archlabs/lab06_board/lab06.srcs/sim_1/new/top_tb.v at line 39 cannot be opened for reading. Please ensure that this file is available in the current working directory.

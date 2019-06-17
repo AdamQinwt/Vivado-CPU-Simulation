@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/archlabs/lab04/lab04.srcs/sources_1/new/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'data' is not allowed [E:/archlabs/lab04/lab04.srcs/sources_1/new/signext.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/archlabs/lab04/lab04.srcs/sim_1/new/signext_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext_tb

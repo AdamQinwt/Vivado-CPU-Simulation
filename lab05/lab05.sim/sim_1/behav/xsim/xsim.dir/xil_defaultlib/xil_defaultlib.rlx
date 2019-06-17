@@ -1,0 +1,19 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/2019CS145PDF0102/2019系统结构实验/Archlabs/CS145PDF/Data/lab2_IP/display.v,1554133728,verilog,,E:/archlabs/lab04/lab04.srcs/sources_1/new/memory.v,,display,,,,,,,,
+E:/archlabs/lab03/lab03.srcs/sources_1/new/ALU.v,1556445928,verilog,,E:/archlabs/lab03/lab03.srcs/sources_1/new/ALUCtr.v,,ALU,,,,,,,,
+E:/archlabs/lab03/lab03.srcs/sources_1/new/ALUCtr.v,1556446750,verilog,,E:/archlabs/lab05/lab05.srcs/sources_1/new/ALU_COMP.v,,ALUCtr,,,,,,,,
+E:/archlabs/lab03/lab03.srcs/sources_1/new/Ctr.v,1556448850,verilog,,E:/archlabs/lab05/lab05.srcs/sources_1/new/InstMemory.v,,Ctr,,,,,,,,
+E:/archlabs/lab04/lab04.srcs/sources_1/new/Registers.v,1556072919,verilog,,D:/2019CS145PDF0102/2019系统结构实验/Archlabs/CS145PDF/Data/lab2_IP/display.v,,Registers,,,,,,,,
+E:/archlabs/lab04/lab04.srcs/sources_1/new/memory.v,1556072325,verilog,,E:/archlabs/lab04/lab04.srcs/sources_1/new/signext.v,,memory,,,,,,,,
+E:/archlabs/lab04/lab04.srcs/sources_1/new/signext.v,1555462820,verilog,,E:/archlabs/lab05/lab05.srcs/sources_1/new/top.v,,signext,,,,,,,,
+E:/archlabs/lab05/lab05.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sim_1/new/top_tb.v,1556072835,verilog,,,,top_tb,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/ALU_COMP.v,1556446609,verilog,,E:/archlabs/lab03/lab03.srcs/sources_1/new/Ctr.v,,ALU_COMP,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/InstMemory.v,1556076748,verilog,,E:/archlabs/lab05/lab05.srcs/sources_1/new/MUX.v,,InstMemory,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/MUX.v,1556068253,verilog,,E:/archlabs/lab05/lab05.srcs/sources_1/new/MUX5.v,,MUX,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/MUX5.v,1556068263,verilog,,E:/archlabs/lab04/lab04.srcs/sources_1/new/Registers.v,,MUX5,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/PC_CTR.v,1556066215,verilog,,E:/archlabs/lab04/lab04.srcs/sources_1/new/Registers.v,,PC_Ctr,,,,,,,,
+E:/archlabs/lab05/lab05.srcs/sources_1/new/top.v,1556448278,verilog,,E:/archlabs/lab05/lab05.srcs/sim_1/new/top_tb.v,,top,,,,,,,,

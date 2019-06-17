@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/Detect.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/EX.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/EXMEM.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/ID.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/IDEX.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/IF.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/IFID.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/MEM.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/MEMWB.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/WB.v" \
+"../../../../../lab06_board/lab06.srcs/sources_1/new/top.v" \
+"../../../../../lab06_board/lab06.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

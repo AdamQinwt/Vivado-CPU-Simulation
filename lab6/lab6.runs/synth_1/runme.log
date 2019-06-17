@@ -1,0 +1,625 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7k325tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3060 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 388.281 ; gain = 102.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IF' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:23]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[0] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[3] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[4] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[5] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[6] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[7] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[8] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[9] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[10] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[11] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[12] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[13] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[14] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[15] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[16] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[17] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[18] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[19] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[20] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[21] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[22] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[23] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[24] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[25] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[26] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[27] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[28] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[29] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[30] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element REG_IN_USE_reg[31] was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:48]
+WARNING: [Synth 8-6014] Unused sequential element w_reg was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:96]
+WARNING: [Synth 8-6014] Unused sequential element w_valid_reg was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:97]
+WARNING: [Synth 8-6014] Unused sequential element r1_reg was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:98]
+WARNING: [Synth 8-6014] Unused sequential element r2_reg was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'IF' (1#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (2#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v:94]
+WARNING: [Synth 8-6014] Unused sequential element B_reg was removed.  [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'EX' (3#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (4#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEM.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WB' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/WB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WB' (5#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/WB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFID' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IFID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFID' (6#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IFID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEX' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IDEX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEX' (7#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/IDEX.v:23]
+WARNING: [Synth 8-350] instance 'pr2' of module 'IDEX' requires 30 connections, but only 28 given [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+INFO: [Synth 8-6157] synthesizing module 'EXMEM' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EXMEM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXMEM' (8#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/EXMEM.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWB' [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEMWB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWB' (9#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/MEMWB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (10#1) [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 443.996 ; gain = 158.246
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin pr2:in_writedst[4] to constant 0 [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+WARNING: [Synth 8-3295] tying undriven pin pr2:in_writedst[3] to constant 0 [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+WARNING: [Synth 8-3295] tying undriven pin pr2:in_writedst[2] to constant 0 [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+WARNING: [Synth 8-3295] tying undriven pin pr2:in_writedst[1] to constant 0 [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+WARNING: [Synth 8-3295] tying undriven pin pr2:in_writedst[0] to constant 0 [E:/archlabs/lab06_board/lab06.srcs/sources_1/new/top.v:209]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 443.996 ; gain = 158.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 443.996 ; gain = 158.246
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_p'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_p'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_clk'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_do'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_en'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_en'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_clk'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_do'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_clk'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_do'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_en'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_en'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_clk'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_do'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/archlabs/lab6/lab6.srcs/constrs_1/imports/new/lab06.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 842.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 842.387 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 842.629 ; gain = 0.242
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "alusrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "aluop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regdst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regmemtoreg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memread" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isbranch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "reg_zero" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 56    
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 26    
++---RAMs : 
+	               2K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 105   
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+	   7 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IF 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+Module ID 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 37    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 101   
+	   5 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+Module EX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+Module MEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	               2K Bit         RAMs := 1     
+Module WB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module IFID 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module IDEX 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
+Module EXMEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module MEMWB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "s3/reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s3/reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s3/reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s3/reg_zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[8]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[9]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[10]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[11]' (FDR) to 's1/INS_reg[12]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[12]' (FDR) to 's1/INS_reg[5]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[13]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[14]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[4]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[5]' (FDR) to 's1/INS_reg[21]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[6]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[21]' (FDR) to 's1/INS_reg[17]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[22]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[23]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[24]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[25]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[7]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[15]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[16]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[18]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[19]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[20]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[2]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[3]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[1]' (FDR) to 's1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[0]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[8]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[9]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[10]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[11]' (FDR_1) to 'pr1/INS_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[12]' (FDR_1) to 'pr1/INS_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[13]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[14]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[4]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[5]' (FDR_1) to 'pr1/INS_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[6]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[21]' (FDR_1) to 'pr1/INS_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[22]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[23]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[24]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[25]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[7]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[15]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[16]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[18]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[19]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[20]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[2]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[3]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[1]' (FDR_1) to 'pr1/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[0]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[11]' (FDR) to 's2/reg_signext_reg[11]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[12]' (FDR) to 's2/reg_signext_reg[12]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[13]' (FDR) to 's2/reg_signext_reg[13]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[14]' (FDR) to 's2/reg_signext_reg[14]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[15]' (FDR) to 's2/reg_signext_reg[15]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[29]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[30]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[28]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[27]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 's1/INS_reg[31]' (FDR) to 's1/INS_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1/INS_reg[26] )
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[8]' (FDR) to 's2/reg_signext_reg[8]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[9]' (FDR) to 's2/reg_signext_reg[9]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[10]' (FDR) to 's2/reg_signext_reg[10]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[15]' (FDR) to 's2/reg_signext_reg[16]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[16]' (FDR) to 's2/reg_signext_reg[17]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[17]' (FDR) to 's2/reg_signext_reg[18]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[18]' (FDR) to 's2/reg_signext_reg[19]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[19]' (FDR) to 's2/reg_signext_reg[20]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[20]' (FDR) to 's2/reg_signext_reg[21]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[21]' (FDR) to 's2/reg_signext_reg[22]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[22]' (FDR) to 's2/reg_signext_reg[23]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[23]' (FDR) to 's2/reg_signext_reg[24]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[24]' (FDR) to 's2/reg_signext_reg[25]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[25]' (FDR) to 's2/reg_signext_reg[26]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[26]' (FDR) to 's2/reg_signext_reg[27]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[27]' (FDR) to 's2/reg_signext_reg[28]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[28]' (FDR) to 's2/reg_signext_reg[29]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[29]' (FDR) to 's2/reg_signext_reg[30]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[30]' (FDR) to 's2/reg_signext_reg[31]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[0]' (FDR) to 's2/INS_reg[0]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[1]' (FDR) to 's2/INS_reg[1]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[2]' (FDR) to 's2/INS_reg[2]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[3]' (FDR) to 's2/INS_reg[3]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[4]' (FDR) to 's2/reg_signext_reg[4]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[5]' (FDR) to 's2/reg_signext_reg[5]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[6]' (FDR) to 's2/reg_signext_reg[6]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[7]' (FDR) to 's2/reg_signext_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[29]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[30]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[28]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[27]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3886] merging instance 'pr1/INS_reg[31]' (FDR_1) to 'pr1/INS_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[16] )
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[17]' (FDR) to 's2/reg_signext_reg[11]'
+INFO: [Synth 8-3886] merging instance 's2/INS_reg[21]' (FDR) to 's2/reg_signext_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[10] )
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[11]' (FDR) to 's2/reg_signext_reg[12]'
+INFO: [Synth 8-3886] merging instance 's2/reg_signext_reg[12]' (FDR) to 's2/reg_signext_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\reg_signext_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (s2/\INS_reg[0] )
+INFO: [Synth 8-3886] merging instance 'pr2/INS_reg[11]' (FDR_1) to 'pr2/sign_ext_reg[11]'
+INFO: [Synth 8-3886] merging instance 'pr2/INS_reg[12]' (FDR_1) to 'pr2/sign_ext_reg[12]'
+INFO: [Synth 8-3886] merging instance 'pr2/INS_reg[13]' (FDR_1) to 'pr2/sign_ext_reg[13]'
+INFO: [Synth 8-3886] merging instance 'pr2/INS_reg[14]' (FDR_1) to 'pr2/sign_ext_reg[14]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s3/aluctr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s4/reg_writedst_reg[4] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT2   |    12|
+|4     |LUT3   |     4|
+|5     |LUT5   |    16|
+|6     |LUT6   |    16|
+|7     |FDRE   |   110|
+|8     |IBUF   |     2|
+|9     |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   171|
+|2     |  s2     |ID     |    44|
+|3     |  p3     |EXMEM  |    11|
+|4     |  p4     |MEMWB  |    11|
+|5     |  pr1    |IFID   |     1|
+|6     |  pr2    |IDEX   |    19|
+|7     |  s1     |IF     |     6|
+|8     |  s3     |EX     |    20|
+|9     |  s4     |MEM    |     2|
+|10    |  s5     |WB     |    46|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 842.629 ; gain = 158.246
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 842.629 ; gain = 556.879
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 855.180 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+170 Infos, 58 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 855.180 ; gain = 582.512
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 855.180 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/archlabs/lab6/lab6.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May  8 09:04:53 2019...

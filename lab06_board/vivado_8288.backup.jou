@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  3 16:54:09 2019
+# Process ID: 8288
+# Current directory: E:/Learn/College/lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12808 E:\Learn\College\lab06\lab06.xpr
+# Log file: E:/Learn/College/lab06/vivado.log
+# Journal file: E:/Learn/College/lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Learn/College/lab06/lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+run 2000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim
+launch_simulation
+open_wave_config E:/Learn/College/lab06/top_tb_behav.wcfg
+source top_tb.tcl
+run 1000ns
+close_sim

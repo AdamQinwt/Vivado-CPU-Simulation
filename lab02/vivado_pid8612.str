@@ -1,0 +1,242 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8612
+License: Customer
+
+Current time: 	Wed May 08 10:20:25 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 101 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx_Vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx_Vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cetc001
+User home directory: C:/Users/cetc001
+User working directory: E:/archlabs/lab02
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx_Vivado/Vivado
+HDI_APPROOT: C:/Xilinx_Vivado/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx_Vivado/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx_Vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/cetc001/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx_Vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/archlabs/lab02/vivado.log
+Vivado journal file location: 	E:/archlabs/lab02/vivado.jou
+Engine tmp dir: 	E:/archlabs/lab02/.Xil/Vivado-8612-cetc19
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx_Vivado/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@192.168.5.100
+XILINX_DSP: C:/Xilinx_Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx_Vivado/Vivado/2018.3
+XILINX_SDK: C:/Xilinx_Vivado/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx_Vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx_Vivado/Vivado/2018.3
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 621 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: E:\archlabs\lab02\lab02.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/archlabs/lab02/lab02.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/archlabs/lab02/lab02.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_Vivado/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 80 MB (+81671kb) [00:00:09]
+// [Engine Memory]: 668 MB (+549145kb) [00:00:09]
+// [GUI Memory]: 92 MB (+8349kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3077 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 712 MB. GUI used memory: 51 MB. Current time: 5/8/19, 10:20:30 AM CST
+// [Engine Memory]: 742 MB (+42127kb) [00:00:13]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 737.371 ; gain = 122.570 
+// Project name: lab02; location: E:/archlabs/lab02; part: xc7k325tffg676-2
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab02.xdc]", 4, false); // B (D, cp)
+// [GUI Memory]: 107 MB (+10610kb) [00:00:20]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab02.xdc]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("lab02.xdc", 407, 243); // cl (w, cp)
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_4bits_tb (adder_4bits_tb.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_4bits_tb (adder_4bits_tb.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_4bits_tb (adder_4bits_tb.v)]", 7); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), U1 : adder_4bits (adder_4bits.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 1); // B (D, cp)
+selectCodeEditor("Top.v", 332, 234); // cl (w, cp)
+selectCodeEditor("Top.v", 429, 386); // cl (w, cp)
+selectCodeEditor("Top.v", 402, 425); // cl (w, cp)
+// Elapsed time: 741 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab02.xdc", 1); // k (j, cp)
+selectCodeEditor("lab02.xdc", 338, 116); // cl (w, cp)
+typeControlKey((HResource) null, "lab02.xdc", 'c'); // cl (w, cp)
+// [Engine Memory]: 781 MB (+1912kb) [00:14:16]
+// Elapsed time: 683 seconds
+selectCodeEditor("lab02.xdc", 369, 459); // cl (w, cp)
+typeControlKey((HResource) null, "lab02.xdc", 'c'); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("lab02.xdc", 210, 119); // cl (w, cp)
+// Elapsed time: 52 seconds
+selectCodeEditor("lab02.xdc", 335, 145); // cl (w, cp)
+typeControlKey((HResource) null, "lab02.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("lab02.xdc", 316, 83); // cl (w, cp)
+typeControlKey((HResource) null, "lab02.xdc", 'c'); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 54 MB. Current time: 5/8/19, 10:50:33 AM CST
+// Elapsed time: 428 seconds
+selectCodeEditor("lab02.xdc", 457, 164); // cl (w, cp)
+selectCodeEditor("lab02.xdc", 401, 167); // cl (w, cp)
+selectCodeEditor("lab02.xdc", 378, 191); // cl (w, cp)
+selectCodeEditor("lab02.xdc", 353, 277); // cl (w, cp)
+selectCodeEditor("lab02.xdc", 452, 339); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("lab02.xdc", 560, 273); // cl (w, cp)
+// Elapsed time: 97 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top.v", 3); // k (j, cp)
+// Elapsed time: 299 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// [GUI Memory]: 115 MB (+2317kb) [00:40:48]
+dismissDialog("Open Hardware Manager"); // bx (cp)
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  3645 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/201612300081 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,653 MB. GUI used memory: 57 MB. Current time: 5/8/19, 11:01:10 AM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// bx (cp):  Auto Connect : addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/archlabs/lab02/lab02.runs/impl_1/Top.bit} [get_hw_devices xc7k325t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7k325t_0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0] 
+// Tcl Message: ERROR: [Labtools 27-2312] Device xc7k325t_0 is no longer available. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtools 27-2312] Device xc7k325t_0 is no longer available. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.  
+// [Engine Memory]: 1,655 MB (+876091kb) [00:40:52]
+// a (cp): Critical Messages: addNotify
+dismissDialog("Auto Connect"); // bx (cp)
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/201612300081 
+// TclEventType: HW_SERVER_UPDATE
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cQ, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cp)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k325t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/archlabs/lab02/lab02.runs/impl_1/Top.bit} [get_hw_devices xc7k325t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k325t_0] 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// WARNING: HEventQueue.dispatchEvent() is taking  1566 ms.

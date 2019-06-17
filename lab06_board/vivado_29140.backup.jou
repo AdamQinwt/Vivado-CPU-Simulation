@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May  8 07:27:40 2019
+# Process ID: 29140
+# Current directory: E:/Learn/College/lab06_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14248 E:\Learn\College\lab06_board\lab06.xpr
+# Log file: E:/Learn/College/lab06_board/vivado.log
+# Journal file: E:/Learn/College/lab06_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Learn/College/lab06_board/lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/Learn/College/lab06_board/top_tb_behav.wcfg
+source top_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+run 1000ns
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {E:/Learn/College/lab06_board/lab06.runs/impl_1/top2.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+close_sim
